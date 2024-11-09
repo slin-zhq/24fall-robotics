@@ -71,9 +71,6 @@ def main():
     # Duplicate the source image
     work_image = src_image.copy()
 
-    # Duplicate the source image
-    work_image = src_image.copy()
-
     # Step 2: Apply Gaussian blur
     work_image = cv2.GaussianBlur(work_image, (5, 5), 0)
     display_image(work_image, "After Gaussian Blur")
