@@ -1,1 +1,4 @@
 images
+*.jpeg
+*.json
+*-*.py
