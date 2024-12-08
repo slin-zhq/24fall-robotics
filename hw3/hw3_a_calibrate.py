@@ -63,6 +63,7 @@ def run_calibration(settings, image_size, object_points, image_points):
     total_avg_err, reproj_errors = compute_reprojection_errors(
         object_points, image_points, rvecs, tvecs, camera_matrix, dist_coeffs)
 
+    print(f"Camera matrix: ", camera_matrix)
     print(f"Reprojection error (RMS): {rms}")
     return rms, camera_matrix, dist_coeffs, rvecs, tvecs, total_avg_err, reproj_errors
 
@@ -120,7 +121,7 @@ def main():
             # Draw and display the corners
             cv2.drawChessboardCorners(img, board_size, corners_subpix, ret)
             # cv2.imshow('Calibration', img)
-            # cv2.waitKey(100)  # Display each image for 100ms
+            # cv2.waitKey(5000)  # Display each image for 100ms
         else:
             print(f"Chessboard corners not found in image {fname}")
 
