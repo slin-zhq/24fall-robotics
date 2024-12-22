@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Link to 
+Type=Link
+URL=file:///home/student/scout_ws/src/scout_gazebo_sim/launch/scout_mini_my_test_world.launch
+Icon=application-xml
