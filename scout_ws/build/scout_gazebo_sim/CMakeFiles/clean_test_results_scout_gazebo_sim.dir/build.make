@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/scout_ws/src
+CMAKE_SOURCE_DIR = /home/regalvm1804lts/scout_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/scout_ws/build
+CMAKE_BINARY_DIR = /home/regalvm1804lts/scout_ws/build
 
 # Utility rule file for clean_test_results_scout_gazebo_sim.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/scout_ws/build
 include scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim.dir/progress.make
 
 scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim:
-	cd /home/student/scout_ws/build/scout_gazebo_sim && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/student/scout_ws/build/test_results/scout_gazebo_sim
+	cd /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/regalvm1804lts/scout_ws/build/test_results/scout_gazebo_sim
 
 clean_test_results_scout_gazebo_sim: scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim
 clean_test_results_scout_gazebo_sim: scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim.dir/build.make
@@ -67,10 +67,10 @@ scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim.dir/build: clean
 .PHONY : scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim.dir/build
 
 scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim.dir/clean:
-	cd /home/student/scout_ws/build/scout_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_scout_gazebo_sim.dir/cmake_clean.cmake
+	cd /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_scout_gazebo_sim.dir/cmake_clean.cmake
 .PHONY : scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim.dir/clean
 
 scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim.dir/depend:
-	cd /home/student/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/scout_ws/src /home/student/scout_ws/src/scout_gazebo_sim /home/student/scout_ws/build /home/student/scout_ws/build/scout_gazebo_sim /home/student/scout_ws/build/scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/regalvm1804lts/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/regalvm1804lts/scout_ws/src /home/regalvm1804lts/scout_ws/src/scout_gazebo_sim /home/regalvm1804lts/scout_ws/build /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scout_gazebo_sim/CMakeFiles/clean_test_results_scout_gazebo_sim.dir/depend
 

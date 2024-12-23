@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/scout_ws/src
+CMAKE_SOURCE_DIR = /home/regalvm1804lts/scout_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/scout_ws/build
+CMAKE_BINARY_DIR = /home/regalvm1804lts/scout_ws/build
 
 # Utility rule file for _run_tests_scout_description_roslaunch-check_launch.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/scout_ws/build
 include scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch.dir/progress.make
 
 scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch:
-	cd /home/student/scout_ws/build/scout_description && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/student/scout_ws/build/test_results/scout_description/roslaunch-check_launch.xml "/usr/bin/cmake -E make_directory /home/student/scout_ws/build/test_results/scout_description" "/opt/ros/melodic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/home/student/scout_ws/build/test_results/scout_description/roslaunch-check_launch.xml\" \"/home/student/scout_ws/src/scout_description/launch\" "
+	cd /home/regalvm1804lts/scout_ws/build/scout_description && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/regalvm1804lts/scout_ws/build/test_results/scout_description/roslaunch-check_launch.xml "/usr/bin/cmake -E make_directory /home/regalvm1804lts/scout_ws/build/test_results/scout_description" "/opt/ros/melodic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/home/regalvm1804lts/scout_ws/build/test_results/scout_description/roslaunch-check_launch.xml\" \"/home/regalvm1804lts/scout_ws/src/scout_description/launch\" "
 
 _run_tests_scout_description_roslaunch-check_launch: scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch
 _run_tests_scout_description_roslaunch-check_launch: scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch.dir/build.make
@@ -67,10 +67,10 @@ scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch
 .PHONY : scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch.dir/build
 
 scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch.dir/clean:
-	cd /home/student/scout_ws/build/scout_description && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_scout_description_roslaunch-check_launch.dir/cmake_clean.cmake
+	cd /home/regalvm1804lts/scout_ws/build/scout_description && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_scout_description_roslaunch-check_launch.dir/cmake_clean.cmake
 .PHONY : scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch.dir/clean
 
 scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch.dir/depend:
-	cd /home/student/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/scout_ws/src /home/student/scout_ws/src/scout_description /home/student/scout_ws/build /home/student/scout_ws/build/scout_description /home/student/scout_ws/build/scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/regalvm1804lts/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/regalvm1804lts/scout_ws/src /home/regalvm1804lts/scout_ws/src/scout_description /home/regalvm1804lts/scout_ws/build /home/regalvm1804lts/scout_ws/build/scout_description /home/regalvm1804lts/scout_ws/build/scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scout_description/CMakeFiles/_run_tests_scout_description_roslaunch-check_launch.dir/depend
 

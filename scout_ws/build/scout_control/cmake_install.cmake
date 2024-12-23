@@ -1,8 +1,8 @@
-# Install script for directory: /home/student/scout_ws/src/scout_control
+# Install script for directory: /home/regalvm1804lts/scout_ws/src/scout_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/student/scout_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/regalvm1804lts/scout_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/scout_ws/build/scout_control/catkin_generated/installspace/scout_control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/regalvm1804lts/scout_ws/build/scout_control/catkin_generated/installspace/scout_control.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_control/cmake" TYPE FILE FILES
-    "/home/student/scout_ws/build/scout_control/catkin_generated/installspace/scout_controlConfig.cmake"
-    "/home/student/scout_ws/build/scout_control/catkin_generated/installspace/scout_controlConfig-version.cmake"
+    "/home/regalvm1804lts/scout_ws/build/scout_control/catkin_generated/installspace/scout_controlConfig.cmake"
+    "/home/regalvm1804lts/scout_ws/build/scout_control/catkin_generated/installspace/scout_controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_control" TYPE FILE FILES "/home/student/scout_ws/src/scout_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_control" TYPE FILE FILES "/home/regalvm1804lts/scout_ws/src/scout_control/package.xml")
 endif()
 

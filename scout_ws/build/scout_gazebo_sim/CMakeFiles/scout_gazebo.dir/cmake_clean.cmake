@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o"
-  "/home/student/scout_ws/devel/lib/libscout_gazebo.pdb"
-  "/home/student/scout_ws/devel/lib/libscout_gazebo.a"
+  "/home/regalvm1804lts/scout_ws/devel/lib/libscout_gazebo.pdb"
+  "/home/regalvm1804lts/scout_ws/devel/lib/libscout_gazebo.a"
 )
 
 # Per-language clean rules from dependency scanning.

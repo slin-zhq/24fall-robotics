@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="robot_namespace" default="/"/>
+    <!--<arg name="world_name" default="$(find scout_gazebo_sim)/worlds/clearpath_playpen.world"/>-->
+    <arg name="world_name" default="$(find scout_gazebo_sim)/worlds/my_test_world.world"/>
+    <arg name ="map_name" default="mymap"/>
+    <!--<arg name ="map_name" default="my_test_map"/>
+    
+    <arg name="world_name" default="$(find scout_gazebo_sim)/worlds/my_test_world.world"/>
+-->
+
+    <!-- use robot pose ekf to provide odometry-->
+    <node pkg="robot_pose_ekf" name="robot_pose_ekf" type="robot_pose_ekf">
+        <param name="output_frame" value="odom" />
+        <param name="base_footprint_frame" value="base_link"/>
+    </node>
+
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(arg world_name)"/>
+	<!--<arg name="world_name" value="$(find gazebo_ros)/launch/empty_world.launch"/>-->
+        <arg name="paused" value="false"/>
+        <arg name="use_sim_time" value="true"/>
+        <arg name="gui" value="true"/>
+        <arg name="headless" value="false"/>
+        <arg name="debug" value="false"/>
+    </include>
+
+    <include file="$(find scout_gazebo_sim)/launch/spawn_scout_mini.launch"></include>
+
+    
+</launch>

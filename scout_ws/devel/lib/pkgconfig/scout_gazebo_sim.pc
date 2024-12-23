@@ -1,8 +1,8 @@
-prefix=/home/student/scout_ws/devel
+prefix=/home/regalvm1804lts/scout_ws/devel
 
 Name: scout_gazebo_sim
 Description: Description of scout_gazebo_sim
 Version: 0.0.1
-Cflags: -I/home/student/scout_ws/src/scout_gazebo_sim/include
+Cflags: -I/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/include
 Libs: -L${prefix}/lib 
 Requires: roscpp sensor_msgs

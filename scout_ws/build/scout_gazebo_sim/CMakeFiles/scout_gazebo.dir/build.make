@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/scout_ws/src
+CMAKE_SOURCE_DIR = /home/regalvm1804lts/scout_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/scout_ws/build
+CMAKE_BINARY_DIR = /home/regalvm1804lts/scout_ws/build
 
 # Include any dependencies generated for this target.
 include scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/depend.make
@@ -58,17 +58,17 @@ include scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/progress.make
 include scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/flags.make
 
 scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o: scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/flags.make
-scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o: /home/student/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/scout_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o"
-	cd /home/student/scout_ws/build/scout_gazebo_sim && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o -c /home/student/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp
+scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o: /home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/regalvm1804lts/scout_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o"
+	cd /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o -c /home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp
 
 scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.i"
-	cd /home/student/scout_ws/build/scout_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp > CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.i
+	cd /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp > CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.i
 
 scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.s"
-	cd /home/student/scout_ws/build/scout_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp -o CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.s
+	cd /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp -o CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.s
 
 scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o.requires:
 
@@ -88,15 +88,15 @@ scout_gazebo_OBJECTS = \
 # External object files for target scout_gazebo
 scout_gazebo_EXTERNAL_OBJECTS =
 
-/home/student/scout_ws/devel/lib/libscout_gazebo.a: scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o
-/home/student/scout_ws/devel/lib/libscout_gazebo.a: scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/build.make
-/home/student/scout_ws/devel/lib/libscout_gazebo.a: scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/scout_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library /home/student/scout_ws/devel/lib/libscout_gazebo.a"
-	cd /home/student/scout_ws/build/scout_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/scout_gazebo.dir/cmake_clean_target.cmake
-	cd /home/student/scout_ws/build/scout_gazebo_sim && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scout_gazebo.dir/link.txt --verbose=$(VERBOSE)
+/home/regalvm1804lts/scout_ws/devel/lib/libscout_gazebo.a: scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o
+/home/regalvm1804lts/scout_ws/devel/lib/libscout_gazebo.a: scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/build.make
+/home/regalvm1804lts/scout_ws/devel/lib/libscout_gazebo.a: scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/regalvm1804lts/scout_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library /home/regalvm1804lts/scout_ws/devel/lib/libscout_gazebo.a"
+	cd /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/scout_gazebo.dir/cmake_clean_target.cmake
+	cd /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scout_gazebo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/build: /home/student/scout_ws/devel/lib/libscout_gazebo.a
+scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/build: /home/regalvm1804lts/scout_ws/devel/lib/libscout_gazebo.a
 
 .PHONY : scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/build
 
@@ -105,10 +105,10 @@ scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/requires: scout_gazebo_sim/CMakeFil
 .PHONY : scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/requires
 
 scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/clean:
-	cd /home/student/scout_ws/build/scout_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/scout_gazebo.dir/cmake_clean.cmake
+	cd /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/scout_gazebo.dir/cmake_clean.cmake
 .PHONY : scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/clean
 
 scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/depend:
-	cd /home/student/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/scout_ws/src /home/student/scout_ws/src/scout_gazebo_sim /home/student/scout_ws/build /home/student/scout_ws/build/scout_gazebo_sim /home/student/scout_ws/build/scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/regalvm1804lts/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/regalvm1804lts/scout_ws/src /home/regalvm1804lts/scout_ws/src/scout_gazebo_sim /home/regalvm1804lts/scout_ws/build /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/depend
 

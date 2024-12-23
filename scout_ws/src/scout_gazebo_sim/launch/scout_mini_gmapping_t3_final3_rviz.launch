@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="robot_namespace" default="/"/>
+    <arg name="world_name" default="$(find scout_gazebo_sim)/worlds/clearpath_playpen.world"/>
+
+    
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find scout_description)/rviz/scout_mini_mapping.rviz" />
+
+</launch>

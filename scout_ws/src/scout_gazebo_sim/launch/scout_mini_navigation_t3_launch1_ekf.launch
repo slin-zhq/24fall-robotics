@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+    <!--<arg name="robot_namespace" default="/"/>
+    <arg name="world_name" default="$(find scout_gazebo_sim)/worlds/clearpath_playpen.world"/>-->
+
+    <!-- use robot pose ekf to provide odometry-->
+    <node pkg="robot_pose_ekf" name="robot_pose_ekf" type="robot_pose_ekf">
+        <param name="output_frame" value="odom" />
+        <param name="base_footprint_frame" value="base_link"/>
+    </node>
+
+  
+</launch>

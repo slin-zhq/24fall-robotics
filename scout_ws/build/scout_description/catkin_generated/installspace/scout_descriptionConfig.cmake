@@ -67,14 +67,14 @@ set(scout_description_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(scout_description_SOURCE_PREFIX /home/student/scout_ws/src/scout_description)
-  set(scout_description_DEVEL_PREFIX /home/student/scout_ws/devel)
+  set(scout_description_SOURCE_PREFIX /home/regalvm1804lts/scout_ws/src/scout_description)
+  set(scout_description_DEVEL_PREFIX /home/regalvm1804lts/scout_ws/devel)
   set(scout_description_INSTALL_PREFIX "")
   set(scout_description_PREFIX ${scout_description_DEVEL_PREFIX})
 else()
   set(scout_description_SOURCE_PREFIX "")
   set(scout_description_DEVEL_PREFIX "")
-  set(scout_description_INSTALL_PREFIX /home/student/scout_ws/install)
+  set(scout_description_INSTALL_PREFIX /home/regalvm1804lts/scout_ws/install)
   set(scout_description_PREFIX ${scout_description_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/student/scout_ws/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/regalvm1804lts/scout_ws/install/lib;/home/regalvm1804lts/scout_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

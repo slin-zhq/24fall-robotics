@@ -1,4 +1,4 @@
-prefix=/home/student/scout_ws/devel
+prefix=/home/regalvm1804lts/scout_ws/devel
 
 Name: scout_control
 Description: Description of scout_control

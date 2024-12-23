@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/student/scout_ws/src/scout_gazebo_sim/include/scout_gazebo/scout_skid_steer.hpp
+/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/include/scout_gazebo/scout_skid_steer.hpp
 geometry_msgs/Twist.h
 -
 ros/ros.h
@@ -14,7 +14,7 @@ ros/ros.h
 string
 -
 
-/home/student/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer_controller.cpp
+/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer_controller.cpp
 nav_msgs/Odometry.h
 -
 ros/ros.h
@@ -26,7 +26,7 @@ tf/transform_broadcaster.h
 string
 -
 scout_gazebo/scout_skid_steer.hpp
-/home/student/scout_ws/src/scout_gazebo_sim/src/scout_gazebo/scout_skid_steer.hpp
+/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/src/scout_gazebo/scout_skid_steer.hpp
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

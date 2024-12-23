@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/scout_ws/src
+CMAKE_SOURCE_DIR = /home/regalvm1804lts/scout_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/scout_ws/build
+CMAKE_BINARY_DIR = /home/regalvm1804lts/scout_ws/build
 
 # Utility rule file for _run_tests_scout_description.
 
@@ -63,10 +63,10 @@ scout_description/CMakeFiles/_run_tests_scout_description.dir/build: _run_tests_
 .PHONY : scout_description/CMakeFiles/_run_tests_scout_description.dir/build
 
 scout_description/CMakeFiles/_run_tests_scout_description.dir/clean:
-	cd /home/student/scout_ws/build/scout_description && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_scout_description.dir/cmake_clean.cmake
+	cd /home/regalvm1804lts/scout_ws/build/scout_description && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_scout_description.dir/cmake_clean.cmake
 .PHONY : scout_description/CMakeFiles/_run_tests_scout_description.dir/clean
 
 scout_description/CMakeFiles/_run_tests_scout_description.dir/depend:
-	cd /home/student/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/scout_ws/src /home/student/scout_ws/src/scout_description /home/student/scout_ws/build /home/student/scout_ws/build/scout_description /home/student/scout_ws/build/scout_description/CMakeFiles/_run_tests_scout_description.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/regalvm1804lts/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/regalvm1804lts/scout_ws/src /home/regalvm1804lts/scout_ws/src/scout_description /home/regalvm1804lts/scout_ws/build /home/regalvm1804lts/scout_ws/build/scout_description /home/regalvm1804lts/scout_ws/build/scout_description/CMakeFiles/_run_tests_scout_description.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scout_description/CMakeFiles/_run_tests_scout_description.dir/depend
 

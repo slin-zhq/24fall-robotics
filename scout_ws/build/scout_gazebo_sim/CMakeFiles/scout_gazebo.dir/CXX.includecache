@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/student/scout_ws/src/scout_gazebo_sim/include/scout_gazebo/scout_skid_steer.hpp
+/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/include/scout_gazebo/scout_skid_steer.hpp
 geometry_msgs/Twist.h
 -
 ros/ros.h
@@ -14,9 +14,9 @@ ros/ros.h
 string
 -
 
-/home/student/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp
+/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp
 scout_gazebo/scout_skid_steer.hpp
-/home/student/scout_ws/src/scout_gazebo_sim/src/scout_gazebo/scout_skid_steer.hpp
+/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/src/scout_gazebo/scout_skid_steer.hpp
 geometry_msgs/Twist.h
 -
 std_msgs/Float64.h

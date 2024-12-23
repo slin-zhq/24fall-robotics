@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/student/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp" "/home/student/scout_ws/build/scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o"
+  "/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/src/scout_skid_steer.cpp" "/home/regalvm1804lts/scout_ws/build/scout_gazebo_sim/CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/student/scout_ws/src/scout_gazebo_sim/include"
+  "/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

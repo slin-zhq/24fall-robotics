@@ -11,30 +11,51 @@ shelves = {
     "shelf_A": {
         "books": ["A1", "A2"],
         "pose": {
-            "position": {"x": 2.00277423859, "y": 7.8101644516, "z": 0.0},
-            "orientation": {"x": 0.0, "y": 0.0, "z": 0.662506972061, "w": 0.749055746905}
+            "position": {"x": 1.06383991241, "y": -0.543489098549, "z": 0.0},
+            "orientation": {"x": 0.0, "y": 0.0, "z": -0.708126266908, "w": 0.706085823477}
         }
     },
     "shelf_B": {
         "books": ["B1"],
         "pose": {
-            "position": {"x": -1.50070428848, "y": -3.69934010506, "z": 0.0},
-            "orientation": {"x": 0.0, "y": 0.0, "z": -0.971146142256, "w": 0.238485157569}
+            "position": {"x": 0.240397781134, "y": -3.02548742294, "z": 0.0},
+            "orientation": {"x": 0.0, "y": 0.0, "z": 0.999850619046, "w": 0.0172840849565}
         }
     },
     "shelf_C": {
         "books": ["C1", "C2", "C3"],
         "pose": {
-            "position": {"x": -5.1686797142, "y": 5.78412437439, "z": 0.0},
-            "orientation": {"x": 0.0, "y": 0.0, "z": 0.795245920971, "w": 0.606286999019}
+            "position": {"x": -0.868938803673, "y": -3.3092956543, "z": 0.0},
+            "orientation": {"x": 0.0, "y": 0.0, "z": 0.999965946696, "w": 0.00825260251752}
+        }
+    },
+    "shelf_D": {
+        "books": ["D1", "D2", "D3"],
+        "pose": {
+            "position": {"x": -1.03238320351, "y": -2.06319284439, "z": 0.0},
+            "orientation": {"x": 0.0, "y": 0.0, "z": 0.706664453674, "w": 0.707548832176}
+        }
+    }, 
+    "shelf_E": {
+        "books": ["E1", "E2", "E3"],
+        "pose": {
+            "position": {"x": 3.070084095, "y": 0.0, "z": 0.0},
+            "orientation": {"x": 0.0, "y": 0.0, "z": 0.0178582730106, "w": 0.999840528327}
+        }
+    }, 
+    "shelf_F": {
+        "books": ["F1", "F2", "F3"],
+        "pose": {
+            "position": {"x": 3.070084095, "y": 0.0, "z": 0.0},
+            "orientation": {"x": 0.0, "y": 0.0, "z": -1.0, "w": -0.0}
         }
     }
 }
 
 # Starting pose of the robot (assume known)
 starting_pose = {
-    "position": {"x": 0.120400190353, "y": -0.066145285964, "z": 0.0},
-    "orientation": {"x": 0.0, "y": 0.0, "z": -0.0733628122528, "w": 0.997305318234}
+    "position": {"x": 0.0, "y": -0.0, "z": 0.0},
+    "orientation": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0}
 }
 
 def find_shelf_for_book(book_title):
@@ -116,6 +137,13 @@ if __name__ == '__main__':
     # 1. Get user input for multiple books
     requested_books = []
     rospy.loginfo("Please enter the books you want (one per line). Type 'done' when finished:")
+    rospy.loginfo("A1: Harry Pottor VI")
+    rospy.loginfo("B1: Percy Jackson II")
+    rospy.loginfo("C1: Twilight I")
+    rospy.loginfo("D1: The Tragedie of Macbeth")
+
+	
+
 
     try:
         while True:
@@ -171,8 +199,9 @@ if __name__ == '__main__':
 
     # 5. Return to the starting pose
     rospy.loginfo("All requested shelves visited. Returning to starting pose...")
-    return_result = send_goal(starting_pose)
-    if return_result:
-        rospy.loginfo("Successfully returned to the starting position.")
-    else:
-        rospy.logwarn("Failed to return to the starting position.")
+    #return_result = send_goal(starting_pose)
+    #if return_result:
+    #    rospy.loginfo("Successfully returned to the starting position.")
+    #else:
+    #    rospy.logwarn("Failed to return to the starting position.")
+

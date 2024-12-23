@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/scout_ws/src
+CMAKE_SOURCE_DIR = /home/regalvm1804lts/scout_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/scout_ws/build
+CMAKE_BINARY_DIR = /home/regalvm1804lts/scout_ws/build
 
 # Utility rule file for std_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ scout_gazebo_sim/CMakeFiles/std_msgs_generate_messages_eus.dir/build: std_msgs_g
 .PHONY : scout_gazebo_sim/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 
 scout_gazebo_sim/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	cd /home/student/scout_ws/build/scout_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : scout_gazebo_sim/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 scout_gazebo_sim/CMakeFiles/std_msgs_generate_messages_eus.dir/depend:
-	cd /home/student/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/scout_ws/src /home/student/scout_ws/src/scout_gazebo_sim /home/student/scout_ws/build /home/student/scout_ws/build/scout_gazebo_sim /home/student/scout_ws/build/scout_gazebo_sim/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/regalvm1804lts/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/regalvm1804lts/scout_ws/src /home/regalvm1804lts/scout_ws/src/scout_gazebo_sim /home/regalvm1804lts/scout_ws/build /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim /home/regalvm1804lts/scout_ws/build/scout_gazebo_sim/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scout_gazebo_sim/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 

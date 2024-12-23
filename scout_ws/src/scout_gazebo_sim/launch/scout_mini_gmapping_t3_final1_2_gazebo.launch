@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="robot_namespace" default="/"/>
+    <!--<arg name="world_name" default="$(find scout_gazebo_sim)/worlds/clearpath_playpen.world"/>-->
+    <arg name="world_name" default="$(find scout_gazebo_sim)/worlds/my_test_world_origin.world"/>
+
+
+<!--roslaunch scout_description spawn_scout.launch x:=1.0 y:=2.0 z:=0.5 yaw:=1.57-->
+
+
+    <include file="$(find scout_gazebo_sim)/launch/spawn_scout_mini.launch">
+    	<arg name="x" default="0" />
+    	<arg name="y" default="0" />
+    	<arg name="z" default="0" />
+    	<arg name="yaw" default="0" />
+
+
+    </include>
+
+    <!--<node name="rviz" pkg="rviz" type="rviz" args="-d $(find scout_description)/rviz/scout_mini_mapping.rviz" />-->
+
+
+</launch>

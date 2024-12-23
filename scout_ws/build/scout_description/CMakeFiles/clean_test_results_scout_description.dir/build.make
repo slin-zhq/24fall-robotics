@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/scout_ws/src
+CMAKE_SOURCE_DIR = /home/regalvm1804lts/scout_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/scout_ws/build
+CMAKE_BINARY_DIR = /home/regalvm1804lts/scout_ws/build
 
 # Utility rule file for clean_test_results_scout_description.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/student/scout_ws/build
 include scout_description/CMakeFiles/clean_test_results_scout_description.dir/progress.make
 
 scout_description/CMakeFiles/clean_test_results_scout_description:
-	cd /home/student/scout_ws/build/scout_description && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/student/scout_ws/build/test_results/scout_description
+	cd /home/regalvm1804lts/scout_ws/build/scout_description && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/regalvm1804lts/scout_ws/build/test_results/scout_description
 
 clean_test_results_scout_description: scout_description/CMakeFiles/clean_test_results_scout_description
 clean_test_results_scout_description: scout_description/CMakeFiles/clean_test_results_scout_description.dir/build.make
@@ -67,10 +67,10 @@ scout_description/CMakeFiles/clean_test_results_scout_description.dir/build: cle
 .PHONY : scout_description/CMakeFiles/clean_test_results_scout_description.dir/build
 
 scout_description/CMakeFiles/clean_test_results_scout_description.dir/clean:
-	cd /home/student/scout_ws/build/scout_description && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_scout_description.dir/cmake_clean.cmake
+	cd /home/regalvm1804lts/scout_ws/build/scout_description && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_scout_description.dir/cmake_clean.cmake
 .PHONY : scout_description/CMakeFiles/clean_test_results_scout_description.dir/clean
 
 scout_description/CMakeFiles/clean_test_results_scout_description.dir/depend:
-	cd /home/student/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/scout_ws/src /home/student/scout_ws/src/scout_description /home/student/scout_ws/build /home/student/scout_ws/build/scout_description /home/student/scout_ws/build/scout_description/CMakeFiles/clean_test_results_scout_description.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/regalvm1804lts/scout_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/regalvm1804lts/scout_ws/src /home/regalvm1804lts/scout_ws/src/scout_description /home/regalvm1804lts/scout_ws/build /home/regalvm1804lts/scout_ws/build/scout_description /home/regalvm1804lts/scout_ws/build/scout_description/CMakeFiles/clean_test_results_scout_description.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scout_description/CMakeFiles/clean_test_results_scout_description.dir/depend
 

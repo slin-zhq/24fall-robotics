@@ -1,8 +1,8 @@
-# Install script for directory: /home/student/scout_ws/src/scout_gazebo_sim
+# Install script for directory: /home/regalvm1804lts/scout_ws/src/scout_gazebo_sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/student/scout_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/regalvm1804lts/scout_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,24 +38,24 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/student/scout_ws/build/scout_gazebo_sim/catkin_generated/installspace/scout_gazebo_sim.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/regalvm1804lts/scout_ws/build/scout_gazebo_sim/catkin_generated/installspace/scout_gazebo_sim.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_gazebo_sim/cmake" TYPE FILE FILES
-    "/home/student/scout_ws/build/scout_gazebo_sim/catkin_generated/installspace/scout_gazebo_simConfig.cmake"
-    "/home/student/scout_ws/build/scout_gazebo_sim/catkin_generated/installspace/scout_gazebo_simConfig-version.cmake"
+    "/home/regalvm1804lts/scout_ws/build/scout_gazebo_sim/catkin_generated/installspace/scout_gazebo_simConfig.cmake"
+    "/home/regalvm1804lts/scout_ws/build/scout_gazebo_sim/catkin_generated/installspace/scout_gazebo_simConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_gazebo_sim" TYPE FILE FILES "/home/student/scout_ws/src/scout_gazebo_sim/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_gazebo_sim" TYPE FILE FILES "/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scout_gazebo_sim" TYPE DIRECTORY FILES
-    "/home/student/scout_ws/src/scout_gazebo_sim/launch"
-    "/home/student/scout_ws/src/scout_gazebo_sim/worlds"
+    "/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/launch"
+    "/home/regalvm1804lts/scout_ws/src/scout_gazebo_sim/worlds"
     )
 endif()
 

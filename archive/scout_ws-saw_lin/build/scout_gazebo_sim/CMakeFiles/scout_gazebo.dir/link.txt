@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/student/scout_ws/devel/lib/libscout_gazebo.a  CMakeFiles/scout_gazebo.dir/src/scout_skid_steer.cpp.o
+/usr/bin/ranlib /home/student/scout_ws/devel/lib/libscout_gazebo.a

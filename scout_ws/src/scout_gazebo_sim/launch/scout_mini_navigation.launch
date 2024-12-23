@@ -1,8 +1,13 @@
 <?xml version="1.0"?>
 <launch>
     <arg name="robot_namespace" default="/"/>
-    <arg name="world_name" default="$(find scout_gazebo_sim)/worlds/clearpath_playpen.world"/>
-    <arg name="map_name" default="mymap2"/>
+    <!--<arg name="world_name" default="$(find scout_gazebo_sim)/worlds/clearpath_playpen.world"/>-->
+    <arg name="world_name" default="$(find scout_gazebo_sim)/worlds/my_test_world.world"/>
+    <arg name ="map_name" default="mymap"/>
+    <!--<arg name ="map_name" default="my_test_map"/>
+    
+    <arg name="world_name" default="$(find scout_gazebo_sim)/worlds/my_test_world.world"/>
+-->
 
     <!-- use robot pose ekf to provide odometry-->
     <node pkg="robot_pose_ekf" name="robot_pose_ekf" type="robot_pose_ekf">
@@ -12,6 +17,7 @@
 
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
         <arg name="world_name" value="$(arg world_name)"/>
+	<!--<arg name="world_name" value="$(find gazebo_ros)/launch/empty_world.launch"/>-->
         <arg name="paused" value="false"/>
         <arg name="use_sim_time" value="true"/>
         <arg name="gui" value="true"/>
@@ -28,7 +34,7 @@
         <param name="initial_pose_a" value="0"/>
     </node>
 
-    <node pkg="map_server" type="map_server" name="map_server" args="$(find scout_gazebo_sim)/maps/mymap2.yaml" output="screen">
+    <node pkg="map_server" type="map_server" name="map_server" args="$(find scout_gazebo_sim)/maps/mymap.yaml" output="screen">
         <param name="frame_id" value="map"/>
     </node>
 
